@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background: black;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+.container .ball {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 50%;
+  background: white;
+  left: 100px;
+}
+
+@keyframes slide {
+  100% {
+    right: 1000px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
